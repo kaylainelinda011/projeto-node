@@ -36,3 +36,15 @@ Não excluir qualquer pasta dentro de node_modules
 node "NOME DO ARQUIVO" Exemplo: node app
 
 ### Instalação como devdependencies 
+( São tecnologia utilizadas apenas durante o desenvolvimento do projeto em específico )
+npm install nodemon -D   (por exemplo)
+
+### Iniciando tecnologia ou scripts utilizando atalhos 
+No´package.json
+
+"scripts": {
+  "morango": "nodemon server.js"
+  }
+  
+  No prompt voce executa:
+  npm run moprango 
