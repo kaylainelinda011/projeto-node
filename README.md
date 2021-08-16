@@ -47,4 +47,4 @@ No´package.json
   }
   
   No prompt voce executa:
-  npm run moprango 
+  npm run morango 
